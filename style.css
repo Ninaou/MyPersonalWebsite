@@ -100,10 +100,6 @@ li{
 }
 
 
-header{
-	background-image: linear-gradient(to right, #faaca8, #ddd6f3);
-}
-
 .profile-image{
 	border-radius: 50%;
 	-webkit-box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 1);
@@ -115,7 +111,7 @@ header{
 	position:relative;
 	top:0;
 	left:0;
-	background-color:LightGray;
+	background-image: linear-gradient(to right, #faaca8, #ddd6f3);
 }
 footer{
 	background-color:black;
@@ -249,5 +245,36 @@ abbr{
 
 
 
+
+/* /* Extra small devices (phones, less than 768px) */ */
+/* @media (max-width: 767px) { */
+  /* .header { */
+    /* text-align: center; */
+  /* } */
+  /* .header .profile-image { */
+    /* float: none !important; */
+    /* margin: 0 auto; */
+  /* } */
+  /* .header .profile-content { */
+    /* float: none !important; */
+    /* text-align: center; */
+  /* } */
+  /* .header .btn { */
+    /* margin-top: 30px; */
+    /* float: none !important; */
+  /* } */
+  /* .project-image { */
+    /* margin-bottom: 15px; */
+  /* } */
+/* } */
+/* /* Small devices (tablets, 768px and up) */ */
+/* /* Medium devices (desktops, 992px and up) */ */
+/* /* Large devices (large desktops, 1200px and up) */ */
+/* /* Ex-Large devices (large desktops, 1200px and up) */ */
+/* @media (min-width: 1400px) { */
+  /* .container { */
+    /* width: 1360px; */
+  /* } */
+/* } */
 
 
