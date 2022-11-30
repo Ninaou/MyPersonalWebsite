@@ -1,3 +1,15 @@
+.projectDate{
+	font-family: cursive;
+}
+
+.hrLine { 
+	border: 0;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), #ee778b, rgba(0, 0, 0, 0));
+}
+
 
 .fa-star{
 	color: pink;
@@ -175,11 +187,11 @@ footer{
 }
 
 .level-bar:nth-child(1) span:before{
-	width: 90%;
+	width: 95%;
 }
 
 .level-bar:nth-child(2) span:before{
-	width: 80%;
+	width: 90%;
 }
 
 .level-bar:nth-child(3) span:before{
@@ -187,18 +199,13 @@ footer{
 }
 
 .level-bar:nth-child(4) span:before{
-	width: 60%;
+	width: 65%;
 }
 
 .level-bar:nth-child(5) span:before{
 	width: 60%;
 }
-
 .level-bar:nth-child(6) span:before{
-	width: 30%;
-}
-
-.level-bar:nth-child(7) span:before{
 	width: 30%;
 }
 
@@ -226,23 +233,20 @@ abbr{
 }
 
 .level-bar:nth-child(1) abbr{
-	left: 90%;
+	left: 95%;
 }
 .level-bar:nth-child(2) abbr{
-	left: 80%;
+	left: 90%;
 }
 .level-bar:nth-child(3) abbr{
 	left: 80%;
 }
 .level-bar:nth-child(4) abbr{
-	left: 60%;
+	left: 65%;
 }
 .level-bar:nth-child(5) abbr{
 	left: 60%;
 }
 .level-bar:nth-child(6) abbr{
-	left: 30%;
-}
-.level-bar:nth-child(7) abbr{
 	left: 30%;
 }
