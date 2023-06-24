@@ -16,6 +16,7 @@
 		<meta name="keywords" content="Mengzhu, Ou, Mengzhu Ou, profile" />
 		<link href ="style.css" rel="stylesheet" />
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 		<script src="https://kit.fontawesome.com/5199f9ab43.js" crossorigin="anonymous"></script>
 	</head>
 	<body>
@@ -39,9 +40,31 @@
 								<img class="profile-image" alt="github" src="github_Image.png" style="width:25px">
 							</a>
 						</li>
+						<li style="margin-left: -79px;">
+							<a href="#" onclick="openPopup(event)">
+								<img class="profile-image" alt="wechat" src="wechat_Image.png" style="width:26px">
+							</a>
+						</li>
 					</ul>
 				</div>
+				
+				<div id="qrPopup" class="qrPopup_container">
+					<div class="qrPopup_content">
+						<img alt="wechat" src="wechat_qr.png">
+						<span class="qr_close" onclick="closePopup()">&times;</span>
+					</div>
+				</div>
 			</div>
+			
+			<script>
+				function openPopup(event){
+					event.preventDefault();
+					document.getElementById("qrPopup").style.display = "block";
+				}
+				function closePopup(){
+					document.getElementById("qrPopup").style.display = "none";
+				}
+			</script>
 		</header>
 
 		<div class="container sections-wrapper">
@@ -172,6 +195,9 @@
 						<div class="section-inner">
 							<h2 class="heading">Work Experience</h2>
 							<div class="content">
+								<div class="item">
+									<h3 class="title">Technology Leadership Development Program (TLDP) - <span style="color:darkolivegreen; font-weight:normal">Travelers (June 2023 - August 2023)</span></h3>
+								</div>
 								<div class="item">
 									<h3 class="title">Software Engineer Developer Intern - <span style="color:darkolivegreen; font-weight:normal">MessageGears (Jan 2023 - May 2023)</span></h3>
 								</div>
