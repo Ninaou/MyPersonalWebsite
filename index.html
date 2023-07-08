@@ -224,7 +224,11 @@
 							<div class="content">
 								<ul class="list-unstyled">
 									<li><i class="fa fa-map-marker"></i><span class="sr-only">Location:</span> Atlanta, GA</li>
-									<li><i class="fa fa-envelope-o"></i><span class="sr-only">Email:</span><a href="mailto:mou30@gatech.edu">mou30@gatech.edu</a></li>
+									<li>
+									  <i class="fa fa-envelope-o"></i><span class="sr-only">Email:</span>
+									  <a href="#" id="email-link">mou30@gatech.edu</a>
+									  <span id="copied-text" style="display: none; margin-left: 5px; color: green;">Copied</span>
+									</li>
 								</ul>
 							</div>
 						</div>
@@ -291,13 +295,13 @@
 							<h2 class="heading">Spoken Languages</h2>
 							<div class="content">
 								<ul class="list-unstyled">
-									<li class="item">
+									<li class="starItem">
 										<span class="title"><strong>Mandarin Chinese</strong></span>
 										<br>
 										<i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i>
 
 									</li>
-									<li class="item">
+									<li class="starItem">
 										<br>
 										<span class="title"><strong>English</strong></span>
 										<br>
@@ -343,5 +347,27 @@
 		function closePopup(){
 			document.getElementById("qrPopup").style.display = "none";
 		}
+		
+		var emailLink = document.getElementById('email-link');
+		var copiedText = document.getElementById('copied-text');
+
+		emailLink.addEventListener('click', function(event) {
+		  event.preventDefault();
+		  var email = emailLink.textContent;
+		  var tempInput = document.createElement('input');
+		  tempInput.value = email;
+		  document.body.appendChild(tempInput);
+		  tempInput.select();
+		  document.execCommand('copy');
+		  document.body.removeChild(tempInput);
+
+		  // Display the "Copied" text
+		  copiedText.style.display = 'inline';
+		  setTimeout(function() {
+			// Hide the "Copied" text after 2 seconds
+			copiedText.style.display = 'none';
+		  }, 2000);
+		});
+
 	</script>
 </html>

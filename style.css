@@ -71,8 +71,11 @@ li{
 	list-style: none;
 	display: inline-block;
 	padding-left: 0;
-	width: 100%;
 	margin-right: 15px;
+}
+
+.starItem{
+	width: 100%;
 }
 
 .content{
@@ -84,7 +87,6 @@ li{
 
 .heading{
     margin-top: 0;
-    margin-bottom: 30px;
     color: #545e69;
     font-size: 24px;
 	font-family: cursive;
@@ -144,7 +146,6 @@ footer{
 /* level-bar */
 .wrap{
 	max-width: 85%;
-	margin-top: -18px;
 }
 
 /* black color to level title  */
