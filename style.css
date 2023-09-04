@@ -293,3 +293,11 @@ abbr{
   display: inline-block; 
   margin-right: -40px;
 }
+
+@media (max-width: 768px) {
+	
+	
+	.wechatImg{
+		width: 80%;
+	}
+}
