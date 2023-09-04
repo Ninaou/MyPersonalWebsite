@@ -294,11 +294,6 @@ abbr{
   margin-right: -40px;
 }
 
-.campusDiscoveryImage {
-    display: flex; 
-    justify-content: space-between;
-}
-
 @media (max-width: 768px) {
 	
 	
