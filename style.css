@@ -1,3 +1,32 @@
+#navBar {
+	position: sticky;
+	top: 0;
+}
+
+#navBar ul {
+	list-style-type: none;
+	overflow: hidden;
+	background-color: rgb(20, 20, 20);
+	padding: 0;
+	margin: 0;
+}
+
+#navBar li {
+	display: inline-block;
+}
+
+#navBar a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+#navBar a:hover {
+	background-color: rgb(31, 31, 31);
+}
+
 .marginStyle{
 	margin-left: 15%; 
 	margin-right: 15%
@@ -43,8 +72,12 @@
     background-color: #efa4d0;
 }
 
-.skill-spring {
+.skill-bootstrap {
     background-color: #82bdf0; 
+}
+
+.skill-jquery {
+    background-color: #f4bf73; 
 }
 
 .skill-css3 {
