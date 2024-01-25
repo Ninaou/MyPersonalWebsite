@@ -20,7 +20,7 @@
     line-height: 30px;
     font-size: 14px;
     font-weight: bold;
-    color: white;
+    color: #5a5a5a;
     cursor: pointer;
 	margin-right: 10px;
 	margin-bottom: 10px;
@@ -36,40 +36,43 @@
 }
 
 .skill-csharp {
-    background-color: #007396; 
+    background-color: #9393d8; 
 }
 
 .skill-unity {
-    background-color: #000;
+    background-color: #efa4d0;
 }
 
 .skill-spring {
-    background-color: #6DB33F; 
+    background-color: #82bdf0; 
 }
 
 .skill-css3 {
-    background-color: #6666d8; 
+    background-color: #9393d8; 
 }
 .skill-java {
-    background-color: #757507;  
+    background-color: #eaeaab;  
 }
 .skill-python {
     background-color: purple;  
 }
 .skill-react {
-    background-color: lime;  
+    background-color: #a4e3d8;  
+}
+.skill-typescript {
+    background-color: rgb(193, 240, 193);  
 }
 .skill-html5 {
-    background-color: #ac354a;  
+    background-color: #f2adb9;  
 }
 .skill-mysql {
-    background-color: green;  
+    background-color: rgb(200, 246, 174);  
 }
 .skill-postman {
-    background-color: #003;  
+    background-color: #f7cea1;
 }
 .skill-firebase {
-    background-color: #c9820e;  
+    background-color: #fae4bf;  
 }
 
 
