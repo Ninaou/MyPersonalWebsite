@@ -1,3 +1,63 @@
+.skill-bar {
+    display: flex;
+    justify-content: flex-start;
+    width: 70%; 
+    margin: auto;
+	
+}
+
+.skill-button {
+	border-radius:5px;
+	width: auto;
+    height: 30px;
+    padding-left: 6px;
+	padding-right: 6px;
+    line-height: 30px;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+	margin-right: 10px;
+}
+
+.skill-csharp {
+    background-color: #007396; 
+}
+
+.skill-unity {
+    background-color: #000;
+}
+
+.skill-spring {
+    background-color: #6DB33F; 
+}
+
+.skill-css3 {
+    background-color: #6666d8; 
+}
+.skill-java {
+    background-color: #757507;  
+}
+.skill-python {
+    background-color: purple;  
+}
+.skill-react {
+    background-color: lime;  
+}
+.skill-html5 {
+    background-color: #ac354a;  
+}
+.skill-mysql {
+    background-color: green;  
+}
+.skill-postman {
+    background-color: #003;  
+}
+.skill-firebase {
+    background-color: #c9820e;  
+}
+
+
 .projectDate{
 	font-family: cursive;
 }
