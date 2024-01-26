@@ -451,7 +451,8 @@
 								</div>
 
 								<div class="level-bar">
-									<h3 class="Third_Header">jQuery/Bootstrap/C++/Django <abbr>30%</abbr></h3>
+									<h3 class="Third_Header">jQuery/Bootstrap</br>
+										/C++/Django <abbr style="top: 55%">30%</abbr></h3>
 									<span></span>
 								</div>
 
@@ -564,9 +565,11 @@
 			var navCollapse = new bootstrap.Collapse(navBar.querySelector('.navbar-collapse'));
 
 			navBar.style.display = 'block';
-			
+			var isFirstLoad = true; // track if it's the first load so that the nav bar do not disappear and reappear
+
 			toggleButton.addEventListener('click', function () {
 				navCollapse.toggle();
+				isFirstLoad = false; 
 			});
 
 			document.querySelectorAll('#navBar a').forEach(anchor => {
@@ -576,14 +579,21 @@
 					const targetSection = document.getElementById(targetId);
 					const headerHeight = document.querySelector('header').offsetHeight - 60; 
 					if (targetSection) {
-					const offset = targetSection.offsetTop + headerHeight;
-					window.scrollTo({
-						top: offset,
-						behavior: 'smooth'
-					});
+						const offset = targetSection.offsetTop + headerHeight;
+						window.scrollTo({
+							top: offset,
+							behavior: 'smooth'
+						});
 
-					// Close the navbar after clicking a link
-					navCollapse.hide();
+						if (!isFirstLoad) {
+							// Check if the navigation is currently in a collapsed state
+							const isNavCollapsed = window.matchMedia("(max-width: 991.98px)").matches;
+							
+							// Toggle the navigation only if it is currently collapsed
+							if (isNavCollapsed) {
+								navCollapse.toggle();
+							}
+						}
 					}
 				});
 			});
