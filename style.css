@@ -1,5 +1,5 @@
 #navBar {
-	position: sticky;
+	position: fixed;
 	top: 0;
 	z-index:2;
 	background-color: rgba(20, 20, 20, 0.5);
@@ -19,8 +19,8 @@
 #navBar a {
 	display: block;
 	color: white;
-	font-size: 23px;
-	padding: 14px 16px;
+	font-size: 15px;
+	padding: 10px 15px;
 	text-decoration: none;
 }
 
@@ -434,5 +434,11 @@ abbr{
 	.wechatImg{
 		width: 80%;
 	}
+
+	#navBar a {
+		font-size: 23px;
+		padding: 14px 16px;
+	}
+	
 }
 

@@ -26,10 +26,11 @@
 	<body>
 		<nav id="navBar" class="navbar navbar-expand-lg navbar-dark fixed-top" style="display: none;">
 			<button aria-controls="basic-navbar-nav" type="button" aria-label="Toggle navigation" class="ml-auto navbar-toggler">
-				<span class="navbar-toggler-icon"></span>
+				<img src="navButtonSmall.png" style="width: 30px;" alt="Custom Navigation Button" class="custom-navbar-image">
 			</button>
 			<div class="navbar-collapse collapse show" id="basic-navbar-nav" >
 				<div class="mr-auto navbar-nav">
+					<a class="nav-link" href="javascript:void(0);" onclick="refreshAndScrollToTop()">Home</a>
 					<a class="nav-link" href="#about">About</a>
 					<a class="nav-link" href="#projects">Latest Projects</a>
 					<a class="nav-link" href="#education">Education</a>
@@ -573,7 +574,7 @@
 					e.preventDefault();
 					const targetId = this.getAttribute('href').substring(1);
 					const targetSection = document.getElementById(targetId);
-					const headerHeight = document.querySelector('header').offsetHeight; 
+					const headerHeight = document.querySelector('header').offsetHeight - 60; 
 					if (targetSection) {
 					const offset = targetSection.offsetTop + headerHeight;
 					window.scrollTo({
@@ -587,6 +588,11 @@
 				});
 			});
 		});
+
+		function refreshAndScrollToTop() {
+			location.reload();
+			window.scrollTo(0, 0);
+		}
 
 
 	</script>
