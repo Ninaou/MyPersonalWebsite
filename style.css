@@ -186,6 +186,7 @@
 
 }
 body{
+	padding-top: 30px;
 	background-image: linear-gradient(to right, #faaca8, #ddd6f3);
 	scrollbar-width: none;  /* Hiding scrollbar for Firefox */
 	-ms-overflow-style: none;  /* IE and Edge */
