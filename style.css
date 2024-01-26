@@ -19,7 +19,7 @@
 #navBar a {
 	display: block;
 	color: white;
-	text-align: center;
+	font-size: 23px;
 	padding: 14px 16px;
 	text-decoration: none;
 }
@@ -148,6 +148,13 @@
 	color: #e1b6f2;
 }
 
+.projectTitle{
+	font-size: 20px;
+    margin-bottom: 5px;
+    line-height: 1.5;
+	font-weight:bold;
+}
+
 .title{
 	font-size: 16px;
     margin-bottom: 5px;
@@ -259,12 +266,10 @@ footer{
 	z-index: 1;
 }
 
-/* level-bar */
 .wrap{
 	max-width: 85%;
 }
 
-/* black color to level title  */
 .level-bar{
 	color: black;
 	letter-spacing: 1px;
@@ -335,7 +340,7 @@ abbr{
 	text-align: center;
 	line-height: 35px;
 	position: absolute;
-	top: 47px;
+	top: 37%;
 	z-index: 1;
 	background: linear-gradient(to left, #faaca8, #ddd6f3);
 	box-shadow: 0 5px 20px #faaca8, 0 5px 20px #ddd6f3;
