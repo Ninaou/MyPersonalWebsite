@@ -82,10 +82,10 @@
 }
 
 .skill-css3 {
-    background-color: #9393d8; 
+    background-color: #61a1fb; 
 }
 .skill-java {
-    background-color: #eaeaab;  
+    background-color: #57a6f5;
 }
 .skill-python {
     background-color: purple;  
@@ -100,16 +100,28 @@
     background-color: rgb(193, 240, 193);  
 }
 .skill-html5 {
-    background-color: #f2adb9;  
+    background-color: #fdf693;  
 }
 .skill-mysql {
-    background-color: rgb(154, 191, 247);  
+    background-color: #64b3ef; 
 }
 .skill-postman {
     background-color: #f7cea1;
 }
 .skill-firebase {
     background-color: #fae4bf;  
+}
+.skill-docker {
+    background-color: #86a9ff;  
+}
+.skill-aws {
+    background-color: #c8f8c9;  
+}
+.skill-tailwind {
+    background-color: #90e1ff;  
+}
+.skill-vue {
+    background-color: #aad4f9;  
 }
 
 
