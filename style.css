@@ -1,3 +1,28 @@
+.music{
+	text-decoration: none;
+	color: #434343;
+}
+
+.music:hover,
+.music:focus {
+	color: rgb(165, 148, 232);
+    text-decoration: none;
+    outline: none;
+}
+
+.email {
+    text-decoration: none;
+	color: #434343;
+}
+
+.email:hover,
+.email:focus {
+	color: rgb(165, 148, 232);
+    text-decoration: none;
+    outline: none;
+}
+
+
 #navBar {
 	position: fixed;
 	top: 0;
@@ -296,7 +321,6 @@ footer{
 	width: 100%;
 	border-radius: 50%;
 	text-overflow: ellipsis;
-	max-width: 200px;
 }
 
 .level-bar span{

@@ -24,7 +24,7 @@
 		<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
 	</head>
 	<body>
-		<nav id="navBar" class="navbar navbar-expand-lg navbar-dark fixed-top" style="display: none;">
+		<nav id="navBar" class="navbar navbar-expand-lg navbar-dark fixed-top">
 			<button aria-controls="basic-navbar-nav" type="button" aria-label="Toggle navigation" class="ml-auto navbar-toggler">
 				<img src="navButtonSmall.png" style="width: 30px;" alt="Custom Navigation Button" class="custom-navbar-image">
 			</button>
@@ -36,7 +36,6 @@
 					<a class="nav-link" href="#projects">Latest Projects</a>
 					<a class="nav-link" href="#achievements">Achievements</a>
 					<a class="nav-link" href="#experience">Work Experience</a>
-					<a class="nav-link" href="#music">Coding Music</a>
 					<a class="nav-link" href="#contact">Contact</a>
 				</div>
 			</div>
@@ -86,7 +85,7 @@
 				</div>
 			</div>
 		</header>
-		<div class="container sections-wrapper">
+		<div class="container sections-wrapper col-mid-8">
 			<div class="row">
 				<div class="primary col-md-8">
 					<section class="about-section" id="about">
@@ -478,24 +477,24 @@
 						</div>
 					</section>
 				</div>
-				<div class="secondary col-md-4">
-					 <aside class="info aside section" id="contact">
+				<div class="container sections-wrapper col-md-4">
+					 <section class="contact-section" id="contact">
 						<div class="section-inner">
 							<h2 class="heading">Contact Me</h2>
 							<div class="content">
 								<ul class="list-unstyled">
-									<li><i class="fa fa-map-marker"></i><span class="sr-only">Location:</span> Atlanta, GA</li>
+									<li><i class="fa fa-map-marker" style="margin-right: 4px;"></i><span class="sr-only">Location:</span> Atlanta, GA</li>
 									<li>
 									  <i class="fa fa-envelope-o"></i><span class="sr-only">Email:</span>
-									  <a href="#" id="email-link">a1106983163@gmail.com<i class="fa-solid fa-copy"></i></a>
-									  <span id="copied-text" style="display: none; margin-left: 5px; color: green;">Copied</span>
+									  <a href="#" id="email-link" class="email">a1106983163@gmail.com<i class="fa-solid fa-copy"></i></a>
+									  <span id="copied-text" style="display: none; margin-left: 5px; color: rgb(165, 148, 232);">Copied</span>
 									</li>
 								</ul>
 							</div>
 						</div>
-					</aside>
+					</section>
 
-					<aside class="skills aside section">
+					<section class="skills-section" id="skill">
 						<div class="section-inner">
 							<h2 class="heading">Technical Skills</h2>
 							<div class="wrap">
@@ -534,9 +533,9 @@
 
 							</div>
 						</div>
-					</aside>
+					</section>
 
-					<aside class="education aside section" id="education">
+					<section class="education-section" id="education">
 						<div class="section-inner">
 							<h2 class="heading">Education</h2>
 							<div class="content">
@@ -552,9 +551,9 @@
 								</div>
 							</div>
 						</div>
-					</aside>
+					</section>
 
-					<aside class="languages aside section">
+					<section class="languages-section" id="languages">
 						<div class="section-inner">
 							<h2 class="heading">Spoken Languages</h2>
 							<div class="content">
@@ -574,30 +573,29 @@
 								</ul>
 							</div>
 						</div>
-					</aside>
+					</section>
 
-					<aside class="list music aside section" id="music">
+					<section class="coding-music-section" id="music">
 						<div class="section-inner">
 							<h2 class="heading">Favorite Coding Music</h2>
 							<div class="content">
 								<ul class="list-unstyled">
-									<li><i class="fa fa-headphones"></i> <a href="https://www.youtube.com/watch?v=7HDeem-JaSY">(G)I-DLE - Queen Card</a></li>
-									<li><i class="fa fa-headphones"></i> <a href="https://www.youtube.com/watch?v=Bal2dSVM1N8">Ge Dongqi - Hang to Drown</a></li>
-									<li><i class="fa fa-headphones"></i> <a href="https://www.youtube.com/watch?v=17NM6lxLO70">Sa Dingding - Uptowards to the Moon</a></li>
-									<li><i class="fa fa-headphones"></i> <a href="https://www.youtube.com/watch?v=fJ9rUzIMcZQ&list=PL1x4sawWVmLb8nZ0DboU_NaJtbw4iUSE7&index=2">Queen - Bohemian Rhapsody (Rock Opera)</a></li>
-									<li><i class="fa fa-headphones"></i> <a href="https://www.youtube.com/watch?v=-JaeBxYCI9k">Emmy Rossum &amp; Gerard Butler - The Phantom of the Opera (Classical)</a></li>
-									<li><i class="fa fa-headphones"></i> <a href="https://www.youtube.com/watch?v=oJLNCTdJKu4">Sarah Brightman - Scarborough Fair (Ballad)</a></li>
-									<li><i class="fa fa-headphones"></i> <a href="https://www.youtube.com/watch?v=08oGSmnBDlM">Liu Shuang - Mohe Ballroom (Ballad)</a></li>
-									<li><i class="fa fa-headphones"></i> <a href="https://www.youtube.com/watch?v=ioNng23DkIM">Black Pink - How You Like That (K-Pop)</a></li>
-									<li><i class="fa fa-headphones"></i> <a href="https://www.youtube.com/watch?v=CBNreMHhkfg">Rocket Girls - Calorie (Pop)</a></li>
-									<li><i class="fa fa-headphones"></i> <a href="https://www.youtube.com/watch?v=39DfJPAUp2M">Fleurie - Love and War</a></li>
-									<li><i class="fa fa-headphones"></i> <a href="https://www.youtube.com/watch?v=I6UPuu_K4Ak">Sound Horizon - 恋人を射ち堕とした日</a></li>
+									<li><i class="fa fa-headphones"></i> <a class="music" target="_blank" href="https://www.youtube.com/watch?v=7HDeem-JaSY">(G)I-DLE - Queen Card</a></li>
+									<li><i class="fa fa-headphones"></i> <a class="music" target="_blank" href="https://www.youtube.com/watch?v=Bal2dSVM1N8">Ge Dongqi - Hang to Drown</a></li>
+									<li><i class="fa fa-headphones"></i> <a class="music" target="_blank" href="https://www.youtube.com/watch?v=17NM6lxLO70">Sa Dingding - Uptowards to the Moon</a></li>
+									<li><i class="fa fa-headphones"></i> <a class="music" target="_blank" href="https://www.youtube.com/watch?v=fJ9rUzIMcZQ&list=PL1x4sawWVmLb8nZ0DboU_NaJtbw4iUSE7&index=2">Queen - Bohemian Rhapsody (Rock Opera)</a></li>
+									<li><i class="fa fa-headphones"></i> <a class="music" target="_blank" href="https://www.youtube.com/watch?v=-JaeBxYCI9k">Emmy Rossum &amp; Gerard Butler - The Phantom of the Opera (Classical)</a></li>
+									<li><i class="fa fa-headphones"></i> <a class="music" target="_blank" href="https://www.youtube.com/watch?v=oJLNCTdJKu4">Sarah Brightman - Scarborough Fair (Ballad)</a></li>
+									<li><i class="fa fa-headphones"></i> <a class="music" target="_blank" href="https://www.youtube.com/watch?v=08oGSmnBDlM">Liu Shuang - Mohe Ballroom (Ballad)</a></li>
+									<li><i class="fa fa-headphones"></i> <a class="music" target="_blank" href="https://www.youtube.com/watch?v=ioNng23DkIM">Black Pink - How You Like That (K-Pop)</a></li>
+									<li><i class="fa fa-headphones"></i> <a class="music" target="_blank" href="https://www.youtube.com/watch?v=CBNreMHhkfg">Rocket Girls - Calorie (Pop)</a></li>
+									<li><i class="fa fa-headphones"></i> <a class="music" target="_blank" href="https://www.youtube.com/watch?v=39DfJPAUp2M">Fleurie - Love and War</a></li>
+									<li><i class="fa fa-headphones"></i> <a class="music" target="_blank" href="https://www.youtube.com/watch?v=I6UPuu_K4Ak">Sound Horizon - 恋人を射ち堕とした日</a></li>
 
 								</ul>
 							</div>
 						</div>
-					</aside>
-
+					</section>
 				</div>
 			</div>
 		</div>
