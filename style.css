@@ -1,27 +1,17 @@
-.music{
+.music, 
+.email{
 	text-decoration: none;
-	color: #434343;
+	color: 	hsl(0, 0%, 26%)
 }
 
 .music:hover,
-.music:focus {
+.music:focus,
+.email:focus,
+.email:hover {
 	color: rgb(165, 148, 232);
     text-decoration: none;
     outline: none;
 }
-
-.email {
-    text-decoration: none;
-	color: #434343;
-}
-
-.email:hover,
-.email:focus {
-	color: rgb(165, 148, 232);
-    text-decoration: none;
-    outline: none;
-}
-
 
 #navBar {
 	position: fixed;
