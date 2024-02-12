@@ -102,6 +102,14 @@
     background-color: #82bdf0; 
 }
 
+.skill-teamwork {
+    background-color: #f7de9d; 
+}
+
+.skill-agile {
+    background-color: #9da0fa; 
+}
+
 .skill-jquery {
     background-color: #f4bf73; 
 }
@@ -113,7 +121,7 @@
     background-color: #57a6f5;
 }
 .skill-python {
-    background-color: purple;  
+    background-color: #3776ab;
 }
 .skill-react {
     background-color: #a4e3d8;  
@@ -200,6 +208,11 @@
     margin-bottom: 5px;
     line-height: 1.5;
 	font-weight:bold;
+}
+
+.more-link {
+	text-decoration: none;
+	color: rgb(113 109 162);
 }
 
 .more-link:hover {
