@@ -1,6 +1,6 @@
 .resume{
 	margin-left: 5px;
-	text-decoration: none;
+	text-decoration: underline;
 	color: 	hsl(0, 0%, 26%);
 	font-weight: bold;
 }
@@ -13,10 +13,16 @@
 
 .resume:hover,
 .music:hover,
-.music:focus,
-.email:focus,
 .email:hover {
 	color: rgb(165, 148, 232);
+    text-decoration: none;
+    outline: none;
+}
+
+.resume:focus,
+.music:focus,
+.email:focus {
+	color: rgb(173, 165, 207);
     text-decoration: none;
     outline: none;
 }
