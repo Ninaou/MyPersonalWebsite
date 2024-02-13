@@ -1,9 +1,17 @@
+.resume{
+	margin-left: 5px;
+	text-decoration: none;
+	color: 	hsl(0, 0%, 26%);
+	font-weight: bold;
+}
+
 .music, 
 .email{
 	text-decoration: none;
 	color: 	hsl(0, 0%, 26%)
 }
 
+.resume:hover,
 .music:hover,
 .music:focus,
 .email:focus,
