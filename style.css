@@ -98,6 +98,26 @@
     background-color: #9393d8; 
 }
 
+.skill-mongodb {
+    background-color: #80edce; 
+}
+
+.skill-express {
+    background-color: rgb(177 225 170);
+}
+
+.skill-nodejs {
+    background-color: rgb(177 225 170);
+}
+
+.skill-jira {
+    background-color: #6aa6ff;
+}
+
+.skill-figma {
+    background-color: rgb(140, 217, 128); 
+}
+
 .skill-unity {
     background-color: #efa4d0;
 }
