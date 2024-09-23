@@ -500,6 +500,13 @@ abbr{
   margin-right: -40px;
 }
 
+.video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0; 
+}
+
 @media (max-width: 768px) {
 	.marginStyle{
 		margin-left: 8%; 
