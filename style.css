@@ -180,6 +180,15 @@
 .skill-vue {
     background-color: #aad4f9;  
 }
+.skill-netlify {
+    background-color: rgb(100, 216, 127);
+}
+.skill-heroku {
+    background-color: #E5B9FE;  
+}
+.skill-blender {
+    background-color: #e87d0d;  
+}
 
 
 .projectDate{
